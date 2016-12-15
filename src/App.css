@@ -1,0 +1,41 @@
+.App {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media print {
+  .App {
+    padding: 0;
+    display: inline-block;
+  }
+}
+
+@media screen {
+  .App {
+    background: #fff;
+    box-shadow: 0 0 6rem rgba(0,0,0,0.02);
+    max-width: 120rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .App {
+    padding: 0.5in;
+  }
+}
+
+@media print {
+  .snapshot-profile {
+    width: 62.5%
+  }
+
+  .snapshot-tech {
+    width: 37.5%
+  }
+}
+
+.Education,
+.Education .job {
+  margin-bottom: 0
+}

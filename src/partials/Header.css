@@ -1,0 +1,37 @@
+.Header {
+  text-align: center;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+@media screen {
+  .Header {
+    padding: 4rem 0 6rem;
+  }
+}
+
+@media print {
+  .Header {
+    padding-bottom: 3rem;
+  }
+}
+
+.Header h1,
+.Header h2 {
+  margin: 0;
+}
+
+.Header h2 {
+  margin-bottom: 2.5rem;
+}
+
+.Header a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #666;
+}
+
+.Header a i {
+  color: #ddd;
+  padding: 0 0.8rem;
+}

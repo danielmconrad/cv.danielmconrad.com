@@ -1,0 +1,99 @@
+html
+  font-size: 62.5%
+
+body
+  color: #333
+  font-family: 'Open Sans', sans-serif
+  font-weight: 300
+
+  @media screen
+    background: #f8f8f8
+    line-height: 1.6
+    padding: 2rem
+    font-size: 1.6em
+
+  @media print
+    font-size: 1.1em
+    line-height: 1.5
+    overflow: visible
+
+@page
+  size: auto
+  bleed: 0
+
+a
+  color: currentColor
+  text-decoration: none
+  transition: color 0.4s ease-in-out
+
+  &:hover
+    color: #333
+
+h1, h2, h3, h4, h5, h6
+  font-weight: 300
+  color: #999
+
+h1
+  color: #222
+
+  @media screen
+    font-size: 3.2rem
+
+  @media print
+    font-size: 2.2rem
+
+h2
+  @media screen
+    font-size: 2.6rem
+
+  @media print
+    font-size: 1.6rem
+
+h3
+  text-transform: uppercase
+  color: $light-blue
+
+  @media screen
+    font-size: 2.2rem
+
+  @media print
+    font-size: 1.2rem
+
+section
+  margin-bottom: 2rem
+
+
+.fa
+  vertical-align: text-bottom
+  padding: 0 0.5rem
+  line-height: 1.45em
+
+.page-break
+  @media print
+    page-break-before: always
+
+.pure-g
+  margin: 0 -1rem
+
+  [class *="pure-u"]
+    font-family: 'Open Sans', sans-serif
+    padding: 0 1rem
+    box-sizing: border-box
+
+.container
+  box-sizing: border-box
+  margin: 0 auto
+
+  @media print
+    padding: 0
+    // max-width: 8.5in
+    display: inline-block
+
+  @media screen
+    background: #fff
+    box-shadow: 0 0 6rem rgba(0,0,0,0.02)
+    max-width: 120rem
+    padding: 2rem
+
+    @media (min-width: 600px)
+      padding: 0.5in

@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%
+}
+
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
+}
+
+@media screen {
+  body {
+    background: #f8f8f8;
+    line-height: 1.6;
+    padding: 2rem;
+    font-size: 1.6em;
+  }
+}
+
+@media print {
+  body {
+    font-size: 1.1em;
+    line-height: 1.5;
+    overflow: visible;
+  }
+}
+
+@page {
+  size: auto;
+  bleed: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+}
+
+a:hover {
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: #999;
+}
+
+h1 {
+  color: #222;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(91, 149, 255);
+}
+
+@media screen {
+  h1 {
+    font-size: 3.2rem;
+  }
+  h2 {
+    font-size: 2.6rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media print {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fa {
+  vertical-align: text-bottom;
+  padding: 0 0.5rem;
+  line-height: 1.45em;
+}
+
+@media print {
+  .page-break {
+    page-break-before: always;
+  }
+}
+
+.pure-g {
+  margin: 0 -1rem;
+}
+
+.pure-g [class *="pure-u"] {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
