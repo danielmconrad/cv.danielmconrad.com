@@ -12,6 +12,7 @@
 
 @media screen {
   .App {
+    position: relative;
     background: #fff;
     box-shadow: 0 0 6rem rgba(0,0,0,0.02);
     max-width: 120rem;

@@ -57,9 +57,12 @@ h1 {
   color: #222;
 }
 
+h2, h3 {
+  color: rgb(91, 149, 255);
+}
+
 h3 {
   text-transform: uppercase;
-  color: rgb(91, 149, 255);
 }
 
 @media screen {

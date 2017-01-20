@@ -1,0 +1,38 @@
+.Sidebar {
+  display: none;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  padding: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .Sidebar {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1340px) {
+  .Sidebar {
+    right: -8rem;
+  }
+}
+
+
+.Sidebar .action {
+  display: block;
+  padding: 1rem;
+  font-size: 3rem;
+  color: rgba(91, 149, 255, 0.3);
+}
+
+.Sidebar .action:hover {
+  cursor: pointer;
+  color: rgb(91, 149, 255);
+}
+
+@media print {
+  .Sidebar .action {
+    display: none;
+  }
+}

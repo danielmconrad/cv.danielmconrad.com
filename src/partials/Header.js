@@ -8,7 +8,7 @@ class Header extends Component {
         <h1>Dan M Conrad</h1>
         <h2>Full Stack Engineer</h2>
 
-        <a href="mailto:dan.m.conrad@gmail.com">
+        <a href="mailto:dan.m.conrad@gmail.com" target="_blank">
           <i className="fa fa-envelope-o" aria-hidden="true"></i>
           dan.m.conrad@gmail.com
         </a>
