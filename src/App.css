@@ -5,8 +5,8 @@
 
 @media print {
   .App {
-    padding: 0;
-    display: inline-block;
+    margin: auto;
+    box-sizing: content-box;
   }
 }
 
