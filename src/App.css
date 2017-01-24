@@ -20,9 +20,15 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .App {
-    padding: 0.5in;
+    padding: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .App {
+    padding: 6rem;
   }
 }
 
