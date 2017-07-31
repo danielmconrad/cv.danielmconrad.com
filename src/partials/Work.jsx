@@ -7,13 +7,43 @@ class Work extends Component {
       <section className="Work">
         <h3>Experience</h3>
 
+        {/* ReviewTrackers */}
+
+        <div className="job">
+          <div className="meta">
+            <div className="position">Senior Software Engineer</div>
+            <div className="company">ReviewTrackers Inc.</div>
+            <div className="date">Feb 2017 - Present</div>
+          </div>
+
+          <div className="project">
+            <div className="title">Reviewtrackers.com App</div>
+            <div className="tech">Node.js, React.js / Redux, HTML5, CSS3, Golang, Ruby</div>
+            <div className="description">
+              <p>As part of the Leadership Team, I oversaw and contributed to several
+              feature projects including Feature Flagging, OAuth 2.0, SAML 2.0,
+              and multiple visual components. I helped build out our deploy process,
+              bringing the average time spent deploying from 1 hour to 5 minutes.</p>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="title">iOS & Android App</div>
+            <div className="tech">React Native</div>
+            <div className="description">
+              <p>Delivered countless iOS and Android releases. Tracked bugs and
+              user events to analayze user engagement.</p>
+            </div>
+          </div>
+        </div>
+
         {/* Groupon */}
 
         <div className="job">
           <div className="meta">
             <div className="position">Senior Software Engineer (SDE III) - Full Stack / Front End</div>
             <div className="company">Groupon Inc.</div>
-            <div className="date">Apr 2014 - Present</div>
+            <div className="date">Apr 2014 - Feb 2017</div>
           </div>
 
           <div className="project">
