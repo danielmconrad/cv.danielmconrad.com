@@ -1,27 +1,43 @@
-@page {
-  size: 8.5in 11in;
-  margin: 2.5cm 1.5cm 1cm;
-}
-
-@page :first {
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 body {
   color: #333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
 
 @media screen {
   body {
-    background: #f8f8f8;
     font-size: 1.6em;
     line-height: 1.6;
     padding: 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    position: relative;
+    box-shadow: 0 0 6rem rgba(0,0,0,0.04);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding: 3rem;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 4rem;
+    margin-top: 5rem;
   }
 }
 
@@ -30,18 +46,21 @@ body {
     font-size: 1.1em;
     line-height: 1.5;
     overflow: visible;
+    padding: 0;
+    margin: 0;
   }
 }
 
 @page {
-  size: auto;
   bleed: 0;
+  size: 8.5in 11in;
+  margin: 1cm;
 }
 
 a {
   color: currentColor;
   text-decoration: none;
-  transition: color 0.4s ease-in-out;
+  transition: color 0.4s;
 }
 
 a:hover {
@@ -49,12 +68,13 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 200;
   color: #999;
 }
 
 h1 {
   color: #222;
+  margin: 0 0 0.5em;
 }
 
 h2, h3 {
@@ -93,26 +113,4 @@ h3 {
 
 section {
   margin-bottom: 2rem;
-}
-
-.fa {
-  vertical-align: text-bottom;
-  padding: 0 0.5rem;
-  line-height: 1.45em;
-}
-
-@media print {
-  .page-break {
-    page-break-before: always;
-  }
-}
-
-.pure-g {
-  margin: 0 -1rem;
-}
-
-.pure-g [class *="pure-u"] {
-  font-family: 'Open Sans', sans-serif;
-  padding: 0 1rem;
-  box-sizing: border-box;
 }
