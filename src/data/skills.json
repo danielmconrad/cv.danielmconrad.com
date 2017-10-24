@@ -1,0 +1,41 @@
+{
+  "languages": [
+    "JavaScript ES 5-7",
+    "Golang",
+    "Python",
+    "Ruby"
+    "HTML5",
+    "CSS",
+    "Bash",
+    "PHP",
+    "C#"
+  ],
+  "frameworks": [
+    "React",
+    "Relay",
+    "Node.js",
+    "Redux",
+    "Ember.js",
+    "Backbone.js",
+    "RabbitMQ",
+    "Docker",
+    "jQuery"
+  ],
+  "datbases": [
+    "PostgreSQL",
+    "MySQL",
+    "T-SQL"
+  ],
+  "servers": [
+    "nginx"
+    "Apache"
+  ],
+  "software": [
+    "Adobe CS 3+",
+    "Sketch"
+  ],
+  "protocols": [
+    "OAuth",
+    "SAML"
+  ]
+}

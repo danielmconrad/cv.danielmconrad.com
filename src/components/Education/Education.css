@@ -1,0 +1,17 @@
+:local .EducationItem {
+  padding-left: 1.5em;
+  border-left: 1px solid #ddd;
+  margin: 1.5em 0 0.5em;
+}
+
+:local .location {
+  font-weight: 400;
+}
+
+:local .description {
+}
+
+:local .dateRange {
+  color: #999;
+  margin-left: 1em;
+}

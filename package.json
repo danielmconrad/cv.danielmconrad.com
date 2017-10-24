@@ -10,11 +10,11 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "start": "NODE_PATH=./src react-scripts start",
+    "build": "NODE_PATH=./src react-scripts build",
+    "test": "NODE_PATH=./src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "git checkout -B master && git add -f build && git commit -am \"chore: deploy\"",
+    "predeploy": "git checkout -B master && git add -f build && git commit -am 'chore: deploy'",
     "deploy": "git filter-branch -f --prune-empty --subdirectory-filter build && git push -f origin master && git checkout develop"
   },
   "homepage": "http://cv.danmconrad.com"
