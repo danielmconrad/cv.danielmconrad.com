@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  color: #333;
+  color: #555;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
@@ -18,10 +18,9 @@ body {
   body {
     font-size: 2em;
     line-height: 1.6;
-    padding: 2rem;
+    padding: 3rem;
     max-width: 120rem;
-    margin: 0 auto;
-    margin-top: 4rem;
+    margin: 4rem auto;
     position: relative;
     box-shadow: 0 0 6rem rgba(0,0,0,0.04);
   }
@@ -29,14 +28,14 @@ body {
 
 @media screen and (min-width: 600px) {
   body {
-    padding: 3rem;
+    padding: 4.5rem;
     margin-top: 5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body {
-    padding: 4rem;
+    padding: 6rem;
     margin-top: 5rem;
   }
 }
@@ -54,7 +53,21 @@ body {
 @page {
   bleed: 0;
   size: 8.5in 11in;
-  margin: 1cm;
+  margin: 1.5cm;
+}
+
+ins {
+  color: #999;
+  text-decoration: none;
+}
+
+strong {
+  color: #222;
+  font-weight: 300;
+}
+
+p {
+  margin: 0.5em 0;
 }
 
 a {
@@ -77,6 +90,10 @@ h1 {
   margin: 0 0 0.5em;
 }
 
+h2 {
+  margin-top: 2em;
+}
+
 h2, h3 {
   color: rgb(91, 149, 255);
 }
@@ -87,13 +104,10 @@ h3 {
 
 @media screen {
   h1 {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
   }
-  h2 {
+  h2, h3 {
     font-size: 2.6rem;
-  }
-  h3 {
-    font-size: 2.2rem;
   }
 }
 
@@ -102,12 +116,8 @@ h3 {
     font-size: 2.2rem;
   }
 
-  h2 {
+  h2, h3 {
     font-size: 1.6rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
   }
 }
 

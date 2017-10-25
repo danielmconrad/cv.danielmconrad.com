@@ -1,2 +1,34 @@
 :local .Header {
+  flex: 1;
+  display: flex;
+  padding: 1em 0 1em;
+}
+
+:local .contact {
+  width: 35%;
+  padding: 1em 0 1.5em;
+}
+
+:local .profile {
+  color: #666;
+  font-size: 0.9em;
+  width: 65%;
+  border-left: 1px solid #ddd;
+  padding: 2em 0 0 5em;
+}
+
+:local .name {
+  margin: 0;
+}
+
+:local .title {
+  margin: 0 0 1.5em;
+}
+
+:local .socialLinks {
+  margin-top: 4em;
+}
+
+:local .socialLink {
+  margin-top: 1em;
 }

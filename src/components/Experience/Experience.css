@@ -1,2 +1,46 @@
 :local .Experience {
 }
+
+:local .ExperienceItem {
+  padding-left: 1.5em;
+  border-left: 1px solid #ddd;
+  margin-bottom: 2em;
+}
+
+:local .title {
+  font-weight: 400;
+}
+
+:local .company {
+}
+
+:local .dateRange {
+  margin-left: 1em;
+}
+
+:local .projects {
+}
+
+:local .project {
+  margin-top: 1.3em;
+}
+
+:local .projectName {
+  margin-right: 1em;
+  color: rgb(91, 149, 255);
+}
+
+:local .projectTech {
+  color: #999;
+  font-style: italic;
+}
+
+:local .projectDesc {
+}
+
+:local .awards {
+}
+
+:local .award {
+  margin-top: 1.5em;
+}

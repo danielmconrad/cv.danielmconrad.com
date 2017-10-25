@@ -1,5 +1,6 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
+import DateRange from 'components/DateRange';
 import styles from './Education.css';
 import data from 'data/education';
 
@@ -11,11 +12,20 @@ const EducationItem = ({ description, endDate, location, startDate }) => (
     <span className={styles.description}>
       {description}
     </span>
-    <span className={styles.dateRange}>
-      {startDate} – {endDate}
-    </span>
+    <DateRange
+      className={styles.dateRange}
+      formattedStart={startDate}
+      formattedEnd={endDate}
+    />
   </div>
 );
+
+EducationItem.propTypes = {
+  description: PropTypes.string,
+  endDate: PropTypes.string,
+  location: PropTypes.string,
+  startDate: PropTypes.string
+};
 
 const Education = () => (
   <div className={styles.Education}>

@@ -1,9 +1,9 @@
 {
   "languages": [
-    "JavaScript ES 5-7",
+    "JavaScript ES5/6/7",
     "Golang",
     "Python",
-    "Ruby"
+    "Ruby",
     "HTML5",
     "CSS",
     "Bash",
@@ -21,13 +21,13 @@
     "Docker",
     "jQuery"
   ],
-  "datbases": [
+  "datebases": [
     "PostgreSQL",
     "MySQL",
     "T-SQL"
   ],
   "servers": [
-    "nginx"
+    "nginx",
     "Apache"
   ],
   "software": [

@@ -1,2 +1,15 @@
 :local .Skills {
+  margin-bottom: 2em;
+}
+
+:local .skills {
+}
+
+:local .skill {
+  display: inline-block;
+  padding: 0 0.4em 0 0;
+}
+
+:local .skill:nth-child(even) {
+  color: #aaa;
 }
