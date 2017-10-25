@@ -7,11 +7,11 @@
     "description": "",
     "projects": [
       {
-        "name": "app.reviewtrackers.com",
+        "name": "App.ReviewTrackers.com",
         "technologies": [
           "React", "Node.js", "Golang", "Ruby", "Python", "RabbitMQ", "PostgreSQL"
         ],
-        "description": "SMS, OAuth, SAML, Python Microservice, Feature flagging, Deploy automation"
+        "description": "As part of the Engineering Leadership team, oversaw direct-reporting Associate and Junior engineers. Spearheaded several full-stack features including OAuth, SAML 2.0, SMS Requests, and Feature Flagging. Built out a Python microservice that communicated back to the rest of the stack through RabbitMQ. Automated the deployment process, bringing the time necessary to deploy down from nearly an hour to around five minutes."
       }
     ]
   },
@@ -76,13 +76,6 @@
     "description": "Involved in all aspects of the enterprise-level software development process, including business requirement consultation, development, delegation of work, mentoring of junior developers, application deployment automation, quality assurance & user acceptance, support, documentation, and bug tackling.",
     "projects": [
       {
-        "name": "Alpha Client Framework",
-        "technologies": [
-          "JS", "C#"
-        ],
-        "description": "Architected a replacement JavaScript framework based on the Module pattern and JavaScript inheritance (similar to but easier to maintain than Backbone) to mirror server control schema to allow for complete user interaction on client side. \n\nDesigned an intricate Event processor to allow for tighter server and client communication through AJAX and Comet. Taught out-of-state junior developers how to implement the framework as well as how to extend it."
-      },
-      {
         "name": "AlphaMetrix Global Marketplace",
         "technologies": [
           "ASP.NET", "C#", "T-SQL", "JS", "CSS3"
@@ -90,11 +83,11 @@
         "description": "Incorporated Project Platypus (see below), heavy content management and user authentication/permissioning. Real-time data queried through complex caching schemas. Created user defined functions and stored procedures to access real- time data for both financial information and social networking data. Familiar with entirety of nearly one million line codebase. Created automated build scripts with MSBuild for minification of CSS and JavaScript."
       },
       {
-        "name": "Project Platypus",
+        "name": "Project Platypus + Alpha Client Framework",
         "technologies": [
           "ASP.NET", "C#", "T-SQL", "JS", "CSS3"
         ],
-        "description": "Made custom Web Controls that wrapped Telerik RadControls as well as strictly defined Mustache based HTML controls, designed around the Abstract Factory pattern. Helped create server side logic of this presentation platform for use in multiple web applications. Solely wrote complex CSS for over 40 Web Controls. Co-wrote complex JavaScript for all controls, including, but not limited to property assignment, input validation, and AJAX reloading of server controls."
+        "description": "Made custom Web Controls that wrapped Telerik RadControls as well as strictly defined Mustache based HTML controls, designed around the Abstract Factory pattern. Helped create server side logic of this presentation platform for use in multiple web applications. Solely wrote complex CSS for over 40 Web Controls. Co-wrote complex JavaScript for all controls, including, but not limited to property assignment, input validation, and AJAX reloading of server controls. Architected a replacement JavaScript framework based on the Module pattern and JavaScript inheritance (similar to but easier to maintain than Backbone) to mirror server control schema to allow for complete user interaction on client side. \n\nDesigned an intricate Event processor to allow for tighter server and client communication through AJAX and Comet. Taught out-of-state junior developers how to implement the framework as well as how to extend it."
       },
       {
         "name": "Intranet",
