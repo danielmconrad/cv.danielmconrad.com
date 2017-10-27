@@ -12,5 +12,12 @@
 }
 
 :local .dateRange {
-  margin-left: 1em;
+  display: block;
+}
+
+@media print, screen and (min-width: 768px) {
+  :local .dateRange {
+    margin-left: 1em;
+    display: inline;
+  }
 }

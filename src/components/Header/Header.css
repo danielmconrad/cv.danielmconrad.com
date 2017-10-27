@@ -1,20 +1,55 @@
 :local .Header {
   flex: 1;
   display: flex;
+  flex-direction: column;
   padding: 1em 0 1em;
 }
 
+@media print, screen and (min-width: 768px) {
+  :local .Header {
+    flex-direction: row;
+  }
+}
+
 :local .contact {
-  width: 35%;
-  padding: 1em 0 1.5em;
+  width: 100%;
+  padding: 1em 0 4.5em;
+  text-align: center;
+}
+
+@media print, screen and (min-width: 768px) {
+  :local .contact {
+    width: 42%;
+    text-align: left;
+    padding-bottom: 1.5em;
+  }
+}
+
+@media print, screen and (min-width: 1024px) {
+  :local .contact {
+    width: 35%;
+  }
 }
 
 :local .profile {
   color: #666;
   font-size: 0.9em;
-  width: 65%;
-  border-left: 1px solid #ddd;
-  padding: 2em 0 0 5em;
+}
+
+@media print, screen and (min-width: 768px) {
+  :local .profile {
+    width: 58%;
+    border-left: 1px solid #ddd;
+    padding: 2em 0 0 2em;
+    margin-left: 2em;
+  }
+}
+
+@media print, screen and (min-width: 1024px) {
+  :local .profile {
+    width: 65%;
+    padding-left: 5em;
+  }
 }
 
 :local .name {

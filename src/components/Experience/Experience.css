@@ -15,7 +15,14 @@
 }
 
 :local .dateRange {
-  margin-left: 1em;
+  display: block;
+}
+
+@media print, screen and (min-width: 768px) {
+  :local .dateRange {
+    margin-left: 1em;
+    display: inline;
+  }
 }
 
 :local .projects {
@@ -26,8 +33,15 @@
 }
 
 :local .projectName {
+  display: block;
   margin-right: 1em;
   color: rgb(91, 149, 255);
+}
+
+@media print, screen and (min-width: 768px) {
+  :local .projectName {
+    display: inline;
+  }
 }
 
 :local .projectTech {
