@@ -12,6 +12,7 @@
   ],
   "frameworks": [
     "React",
+    "React Native",
     "Relay",
     "Node.js",
     "Redux",

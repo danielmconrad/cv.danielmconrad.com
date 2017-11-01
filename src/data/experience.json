@@ -9,9 +9,9 @@
       {
         "name": "App.ReviewTrackers.com",
         "technologies": [
-          "React", "Node.js", "Golang", "Ruby", "Python", "RabbitMQ", "PostgreSQL"
+          "React", "React Native", "Node.js", "Golang", "Ruby", "Python", "RabbitMQ", "PostgreSQL"
         ],
-        "description": "As part of the Engineering Leadership team, oversaw direct-reporting Associate and Junior engineers. Spearheaded several full-stack features including OAuth, SAML 2.0, SMS Requests, and Feature Flagging. Built out a Python microservice that communicated back to the rest of the stack through RabbitMQ. Automated the deployment process, bringing the time necessary to deploy down from nearly an hour to around five minutes."
+        "description": "As part of the Engineering Leadership team, oversaw direct-reporting Associate and Junior engineers. Spearheaded several full-stack features including OAuth, SAML 2.0, SMS Requests, and Feature Flagging. Constructed and deployed a React Native app for iOS and Android. Built out a Python microservice that communicated back to the rest of the stack through RabbitMQ. Automated the deployment process, bringing the time necessary to deploy down from nearly an hour to around five minutes."
       }
     ]
   },
@@ -59,7 +59,7 @@
         "technologies": [
           "Node.js", "Ember.js", "HTML5", "CSS3", "MySQL"
         ],
-        "description": "Architected and built out a robust one-page app for the front-end portion of the larger n-tier platform. The application used many third-party technologies to quickly bootstrap the desired functionality; several were incrementally replaced with custom code. All CRUD functionality was proxied back to a separate API using Ember Data. \n\nWorked heavily with DB stored procedures and data model structure for new feature development. Began conversion of the middle tier to Node.js from Symfony (PHP). Set up OAuth 2.0 as well as a model interaction layer for communication to the database."
+        "description": "Architected and built out a robust one-page app for the front-end portion of the larger n-tier platform. The application used many third-party technologies to quickly bootstrap the desired functionality; several were incrementally replaced with custom code. All CRUD functionality was proxied back to a separate API using Ember Data. Worked heavily with DB stored procedures and data model structure for new feature development. Began conversion of the middle tier to Node.js from Symfony (PHP). Set up OAuth 2.0 as well as a model interaction layer for communication to the database."
       },
       {
         "name": "Other Achievements and Duties",
