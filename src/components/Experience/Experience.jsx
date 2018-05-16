@@ -16,6 +16,7 @@ const ExperienceItem = (props) => (
         start={props.startDate}
         end={props.endDate}
       />
+      <div>{props.description}</div>
     </div>
     <div className={styles.projects}>
       {props.projects && props.projects.map((project, i) => (
