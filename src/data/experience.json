@@ -1,9 +1,25 @@
 [
   {
     "title": "Sr. Software Engineer",
+    "company": "WyzAnt",
+    "startDate": "2018-01",
+    "endDate": null,
+    "description": "",
+    "projects": [
+      {
+        "name": "Project Waldo",
+        "technologies": [
+          "Golang", "Elasticsearch", "Rails", "Python", "MySQL", "MSSQL"
+        ],
+        "description": "Launched an overhauled search service based on Elasticsearch, written in Go. Work also included determination of SLA, monitoring, and implementation on multiple clients."
+      }
+    ]
+  },
+  {
+    "title": "Sr. Software Engineer",
     "company": "ReviewTrackers",
     "startDate": "2017-02",
-    "endDate": null,
+    "endDate": "2017-12",
     "description": "",
     "projects": [
       {
@@ -59,7 +75,7 @@
         "technologies": [
           "Node.js", "Ember.js", "HTML5", "CSS3", "MySQL"
         ],
-        "description": "Architected and built out a robust one-page app for the front-end portion of the larger n-tier platform. The application used many third-party technologies to quickly bootstrap the desired functionality; several were incrementally replaced with custom code. All CRUD functionality was proxied back to a separate API using Ember Data. Worked heavily with DB stored procedures and data model structure for new feature development. Began conversion of the middle tier to Node.js from Symfony (PHP). Set up OAuth 2.0 as well as a model interaction layer for communication to the database."
+        "description": "Architected and built out a robust single-page app for the front-end portion of the larger n-tier platform. The application used many third-party technologies to quickly bootstrap the desired functionality; several were incrementally replaced with custom code. All CRUD functionality was proxied back to a separate API using Ember Data. Worked heavily with DB stored procedures and data model structure for new feature development. Began conversion of the middle tier to Node.js from Symfony (PHP). Set up OAuth 2.0 as well as a model interaction layer for communication to the database."
       },
       {
         "name": "Other Achievements and Duties",
