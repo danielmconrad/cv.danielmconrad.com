@@ -5,25 +5,25 @@ import styles from './Header.css';
 const Header = (props) => (
   <div className={styles.Header}>
     <div className={styles.contact}>
-      <h1 className={styles.name}>Dan M Conrad</h1>
+      <h1 className={styles.name}>Daniel M Conrad</h1>
       <h2 className={styles.title}>Full Stack Engineer</h2>
 
       <div className={styles.socialLinks}>
         <div className={styles.socialLink}>
           <Icon type="google" className={styles.icon} />
-          <strong>danmconrad</strong><ins>@gmail.com</ins>
+          <strong>danielmconrad</strong><ins>@gmail.com</ins>
         </div>
         <div className={styles.socialLink}>
           <Icon type="linkedin" className={styles.icon} />
-          <ins>linkedin.com/in/</ins><strong>danmconrad</strong>
+          <ins>linkedin.com/in/</ins><strong>danielmconrad</strong>
         </div>
         <div className={styles.socialLink}>
           <Icon type="github" className={styles.icon} />
-          <ins>github.com/</ins><strong>danmconrad</strong>
+          <ins>github.com/</ins><strong>danielmconrad</strong>
         </div>
         <div className={styles.socialLink}>
           <Icon type="medium" className={styles.icon} />
-          <ins>medium.com/@</ins><strong>danmconrad</strong>
+          <ins>medium.com/@</ins><strong>danielmconrad</strong>
         </div>
       </div>
     </div>
