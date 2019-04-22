@@ -1,17 +1,25 @@
 [
   {
     "title": "Associate Board Director",
-    "company": "CoderDojoChi",
+    "company": "We All Code",
     "startDate": "2018-02",
     "endDate": null,
-    "description": "Managed several operational concerns including fundraising, outreach, and analytics. Taught HTML, CSS, and JavaScript to groups of children between the ages of 7 and 17.",
+    "description": "Managed several operational concerns including fundraising, outreach, analytics, and rebranding. Taught HTML, CSS, JavaScript, and Python to groups of children between the ages of 7 and 17.",
+    "projects": []
+  },
+  {
+    "title": "Sr. Software Engineer / Tech Lead",
+    "company": "Ascent RegTech",
+    "startDate": "2019-04",
+    "endDate": null,
+    "description": "",
     "projects": []
   },
   {
     "title": "Sr. Software Engineer",
     "company": "WyzAnt",
     "startDate": "2018-01",
-    "endDate": null,
+    "endDate": "2019-04",
     "description": "",
     "projects": [
       {
@@ -20,6 +28,27 @@
           "Golang", "Elasticsearch", "Rails", "Python", "MySQL", "MSSQL"
         ],
         "description": "Launched an overhauled search service based on Elasticsearch, written in Go. Work also included determination of SLA, monitoring, and implementation on multiple clients."
+      },
+      {
+        "name": "SEO Internal Linking",
+        "technologies": [
+          "Golang", "MySQL"
+        ],
+        "description": "Created an application to optimize links between SEO landing pages using a Many-to-Many matching algorithm."
+      },
+      {
+        "name": "Online Classroom",
+        "technologies": [
+          "Python", "Django", "Backbone.js", "Fabric.js", "Websockets"
+        ],
+        "description": "Updated a live classroom application to support live video recording."
+      },
+      {
+        "name": "Wyzant for Higher-Ed",
+        "technologies": [
+          "Rails", "Docker"
+        ],
+        "description": "Productionalized a Rails app, including the addition of a dockerized development environment, automatic tests and deploys, and data management."
       }
     ]
   },

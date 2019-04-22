@@ -1,6 +1,6 @@
 {
   "languages": [
-    "JavaScript ES5/6/7",
+    "JavaScript",
     "Golang",
     "Python",
     "Ruby",
@@ -11,16 +11,19 @@
     "C#"
   ],
   "frameworks": [
+    "Rails",
+    "Django",
+    "Node.js",
     "React",
     "React Native",
     "Relay",
-    "Rails",
-    "Node.js",
     "Redux",
+    "Mobx",
+    "Docker",
     "Ember.js",
+    "Fabric.js",
     "Backbone.js",
     "RabbitMQ",
-    "Docker",
     "jQuery"
   ],
   "databases": [
@@ -34,7 +37,7 @@
     "Apache"
   ],
   "software": [
-    "Adobe CS 3+",
+    "Adobe CS",
     "Sketch"
   ],
   "protocols": [
